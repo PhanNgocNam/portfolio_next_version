@@ -4,9 +4,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
+import { SiZalo } from "react-icons/si";
 import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { useActiveSectionContext } from "@/hooks/useActiveSectionContext";
@@ -29,11 +29,11 @@ export default function Intro() {
           >
             <Image
               alt=""
-              src="https://scontent.fvii2-1.fna.fbcdn.net/v/t39.30808-6/393360896_1486703288752251_7271994840221437635_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEP3SoC7lpRD2Qen9LUjMS2TJpxNni7BCpMmnE2eLsEKulhrEylfYwTdzcbABqXiEG6O9fydfZUhL2TSqgY4pAF&_nc_ohc=yGk-g6vSBqoAX9-bm49&_nc_ht=scontent.fvii2-1.fna&oh=00_AfBJpBIwPGwQ6EYdjdP23jpa7jBQh3sQvifJiA1h78_8qw&oe=658F8C58"
-              width={192}
-              height={192}
+              src="/avatar-pofolio.png"
+              width={500}
+              height={500}
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-40 w-40 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -55,13 +55,16 @@ export default function Intro() {
       <motion.p
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl"
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hi there, My name is Phan Ngọc Nam.</span>{" "}
+        I'm a senior student at Industry University (IUH) and my goal is to
+        become a full-stack developer specializing in{" "}
+        <span className="font-bold">Java Spring and React.js</span>. Currently.
+        I'm looking for an opotunities to work as a fulltime software developer.
+        Hope to here from you soon. Feel free to reach me out directly via Zalo
+        at <span className="italic underline">039.406.4464</span> or drop me an
+        email at <span className="italic underline">realcm471@gmail.com</span>
       </motion.p>
 
       <motion.div
@@ -95,15 +98,15 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://chat.zalo.me/"
           target="_blank"
         >
-          <BsLinkedin />
+          <SiZalo />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/PhanNgocNam"
           target="_blank"
         >
           <FaGithubSquare />
