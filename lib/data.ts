@@ -1,4 +1,4 @@
-import corpcommentImg from "@/public/a5d3f20be7754b2b1264.jpg";
+import corpcommentImg from "@/public/music.jpg";
 import rmtdevImg from "@/public/pofo.jpg";
 import wordanalyticsImg from "@/public/shipper.jpg";
 
@@ -32,7 +32,7 @@ export const projectsData = [
       "A music-listening website helps people alleviate stress. I worked as a front-end developer",
     tags: ["React", "Redux", "Antd", "Tailwind", "Typescript", "Firebase"],
     imageUrl: corpcommentImg,
-    demo_link: "https://ron-music.vercel.app/",
+    demo_link: "https://p2n-music.vercel.app/",
   },
   {
     title: "Personal protfolio",
