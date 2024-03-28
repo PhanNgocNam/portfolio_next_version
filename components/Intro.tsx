@@ -60,8 +60,8 @@ export default function Intro() {
         <span className="font-bold">Hi there, My name is Phan Ngọc Nam.</span>{" "}
         I'm a senior student at Industry University (IUH) and my goal is to
         become a full-stack developer specializing in{" "}
-        <span className="font-bold">Java Spring and React.js</span>. Currently.
-        I'm looking for an opotunities to work as a fulltime software developer.
+        <span className="font-bold">Node.js and React.js</span>. Currently. I'm
+        looking for an opotunities to work as a fulltime software developer.
         Hope to here from you soon. Feel free to reach me out directly via Zalo
         at <span className="italic underline">039.406.4464</span> or drop me an
         email at <span className="italic underline">realcm471@gmail.com</span>
