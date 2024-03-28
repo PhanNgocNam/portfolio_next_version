@@ -70,11 +70,10 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Tailwind",
-  "Spring boot",
+  "Express.js",
   "Node.js",
   "Redux",
   "MySQL",
   "Framer Motion",
   "MongoDB",
-  "Spring Security",
 ] as const;
