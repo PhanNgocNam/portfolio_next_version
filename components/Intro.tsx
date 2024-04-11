@@ -62,7 +62,7 @@ export default function Intro() {
         become a full-stack developer specializing in{" "}
         <span className="font-bold">Node.js and React.js</span>. Currently. I'm
         looking for an opotunities to work as a fulltime software developer.
-        Hope to here from you soon. Feel free to reach me out directly via Zalo
+        Hope to hear from you soon. Feel free to reach me out directly via Zalo
         at <span className="italic underline">039.406.4464</span> or drop me an
         email at <span className="italic underline">realcm471@gmail.com</span>
       </motion.p>
